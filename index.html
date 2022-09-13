@@ -7,44 +7,55 @@
     <title>World of Warcraft</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-black">
-            <img src="pictures/Blizzard_Entertainment_Logo.png" class="logo" alt="">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <a class="nav-link dropdown-toggle grey" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Games
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item grey" href="#">Overwatch</a>
-                    <a class="dropdown-item grey" href="#">Overwatch 2</a>
-                    <a class="dropdown-item grey" href="#">Diablo II</a>
-                  </div>
-                <li class="nav-item">
-                  <a class="nav-link grey" href="#">Shop</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link grey" href="#">News</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Esports
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item grey" href="#">Overwatch</a>
-                    <a class="dropdown-item grey" href="#">Overwatch 2</a>
-                    <a class="dropdown-item grey" href="#">Diablo II</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg bg-black col-lg-12 col-md-12" id="felso_navbar">
+        <a href="https://www.blizzard.com/"><img src="pictures/Blizzard_Entertainment_Logo.png" alt="Blizzard Logo" id="blizzard"></a>
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">  
+                      
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle grey" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Games
+                </a>
+                <ul class="dropdown-menu bg-black">
+                  <li><a class="dropdown-item grey" href="#">Overwatch</a></li>
+                  <li><a class="dropdown-item grey" href="#">Overwatch 2</a></li>
+                  <li><a class="dropdown-item grey" href="#">Diablo II</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link grey" aria-current="page" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link grey" href="#">News</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle grey" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Esports
+                </a>
+                <ul class="dropdown-menu bg-black">
+                  <li><a class="dropdown-item grey" href="#">Overwatch League</a></li>
+                  <li><a class="dropdown-item grey" href="#">Overwatch World Cup</a></li>
+                  <li><a class="dropdown-item grey" href="#">Hearthstone Masters</a></li>
+                  <li><a class="dropdown-item grey" href="#">StarCraft II WCS</a></li>
+                  <li><a class="dropdown-item grey" href="#">World of Warcraft Arena</a></li>
+
+                </ul>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-<script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

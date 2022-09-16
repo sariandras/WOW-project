@@ -69,4 +69,10 @@ display: inline-block;
 line-height: 1.5em;
 position: relative;
 z-index: auto;
-background-position: center 0; */
+background-position: center 0;
+font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
+font-weight: 700; */
+
+.navbar-bg-color{
+background-color: #211510
+}

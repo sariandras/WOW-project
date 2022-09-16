@@ -1,4 +1,4 @@
-#blizzard{
+#logo{
     height: 40px;
 }
 #felso_navbar{
@@ -32,6 +32,9 @@
     z-index: auto;
     background-position: center 0; 
 }
+.no-rounding{
+    border-radius: 0;
+}
 
 /* transition: all .25s cubic-bezier(.23,1,.32,1) 0s;
 transition-property: all;
@@ -49,6 +52,6 @@ background-position: center 0;
 font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
 font-weight: 700; */
 
-/* navbar bg color:
+.navbar-bg-color{
 background-color: #211510
-*/
+}

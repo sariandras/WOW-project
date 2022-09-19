@@ -107,3 +107,26 @@ background-color: #211510
 .betuszin{
     color: #ffe13e;
 }
+.tortenet-magassag{
+  max-height: 20%;
+}
+.justify{
+  text-align: justify;
+}
+#azeroth{
+  background-image: url("pictures/titans2.jpg");
+  background-repeat: none;
+}
+#footer{
+  background-color: #211510;
+}
+#blizzard{
+  width: 100px;
+  height: 50px;
+}
+.szoveg-kozep{
+  text-align: center;
+}
+.div-kozep{
+  margin: auto!important;
+}

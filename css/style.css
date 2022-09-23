@@ -174,3 +174,8 @@ background-color: #211510;
   font-family: Open Sans,Arial,Helvetica,sans-serif;
 
 }
+#index-video {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}

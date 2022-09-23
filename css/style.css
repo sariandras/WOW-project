@@ -37,7 +37,7 @@
     display: none;
   }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width:768px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -45,7 +45,7 @@
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
@@ -75,11 +75,26 @@ font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
 font-weight: 700; */
 
 .navbar-bg-color{
-background-color: #211510
+background-color: #211510;
 }
 .tortenet-hatter{
     width: 100%;
     height: 500px;
+    background-image: url(../pictures/hatter-1.jpg);
+    background-repeat: round;
+}
+
+.tortenet-hatter-2{
+  width: 100%;
+  height: 100%;
+  background-image: url(../pictures/hatter-2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.tortenet-hatter-3{
+  width: 100%;
+  background-image: url(../pictures/hatter-3.jpg);
+  background-repeat: round;
 }
 .text-picture{
     position: absolute;
@@ -118,12 +133,22 @@ background-color: #211510
   background-image: url("pictures/titans2.jpg");
   background-repeat: none;
 }
-#footer{
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
   background-color: #211510;
+}
+.footer p{
+  padding: 0;
+  margin: 0;
 }
 #blizzard{
   width: 100px;
   height: 50px;
+  margin: auto;
 }
 .szoveg-kozep{
   text-align: center;
@@ -131,6 +156,7 @@ background-color: #211510
 .div-kozep{
   margin: auto!important;
 }
+
 
 .showcase video{
   position: absolute;
@@ -147,5 +173,28 @@ background-color: #211510
 
 .textov{
   position: absolute;
+}
 
+.background{
+  background-color: #211510
+}
+.icons{
+  width: 50px;
+  height: 50px;
+}
+.background{ 
+ background:rgb(50,30,40);
+ background: linear-gradient(180deg,rgb(16,23,41)0%,rgb(60,69,79)25%,rgb(34,79,58)50%, rgb(23,38,60) 85%, rgb(31,25,27) 95%, rgb(33,21,16) 100%);
+}
+.barna-hatter{
+  background-color: #211510;
+}
+.betu{
+  font-family: Open Sans,Arial,Helvetica,sans-serif;
+
+}
+#index-video {
+  right: 0;
+  bottom: 0;
+  width: 100%;
 }

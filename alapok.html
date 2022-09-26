@@ -1,30 +1,202 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A játék alapjai</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="pictures/icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A játék alapjai</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="pictures/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-<body>
-    <header>
-      <div class="topnav" id="myTopnav">
-        <a href="index.html"><img src="pictures/icon.png" id="logo"></a>
-        <a href="jatekrol.html" class="betuszin">A játékról</a>
-        <a href="tortenet.html">Története</a>
-        <a href="esport.html">Esports</a>
-        <a href="alapok.html">Alapok</a>
-        <a href="javascript:void(0);" class="icon" onclick="navbar()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-    </header>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+
+<body class="fix">
+  <header>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html"><img src="pictures/icon.png" id="logo"></a>
+      <a href="jatekrol.html" class="betuszin">A játékról</a>
+      <a href="tortenet.html">Története</a>
+      <a href="esport.html">Esports</a>
+      <a href="alapok.html">Alapok</a>
+      <a href="javascript:void(0);" class="icon" onclick="navbar()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
+  <section class="background textcoloralapok lg-6">
+    <h1>A játék alapjai</h1>
+    <p>
+      A játékosoknak, mikor belépnek a játékba, választaniuk kell a szerverek, avagy világok (realm) közül. Egy
+      szerveren
+      egy előfizetésről maximum 10 karakter lehet, és legfeljebb 50 karakter indítható előfizetésenként. A szerverek
+      között
+      a karakterek átvitele fizetés ellenében lehetséges, vagy karakteráthelyezési akciók keretén belül meghatározott
+      szerverek között ingyenesen.
+    </p>
+    <p>
+      A szerverek lehetnek egyszerű (Normal, Player versus Environment, PvE) vagy "játékos játékos ellen" (Player versus
+      Player, PvP) típusúak. Előbbiekben az ellenséges oldalon álló játékosok csak akkor tudják megtámadni egymást, ha
+      bekapcsolják a "PvP módot", vagy belépnek egy ellenséges területre. Ezzel szemben a PvP birodalmakban az
+      úgynevezett
+      vitatott (contested) területeken automatikusan bekapcsolódik a "PvP mód", így a játékosok bármikor megtámadhatják
+      egymást.
+    </p>
+    <p>
+      Emellett léteznek "szerepjátékos" (Roleplaying, RP) szerverek is. Itt elvárják, hogy a játékos némileg azonosuljon
+      a
+      karakterrel, ezért szigorú előírások vannak a karakterek elnevezését, valamint a többi játékossal való
+      kommunikációt
+      illetően. Ezen szabályok sorozatos megszegése akár a szerverről való kitiltást is eredményezheti. Ezek a szerverek
+      szintén lehetnek egyszerűek vagy PvP típusúak.
+    </p>
+
+    <h2>Fajok</h2>
+    <p>
+      Az alapjátékban nyolc faj közül lehet választani, de ez a szám az első kiegészítővel, a The Burning
+      Crusademegjelenésével tízre, majd a harmadik kiegészítővel, a Cataclysm után tizenkettőre fog emelkedett. A fajok
+      két, egymással harcban álló frakcióba tömörülnek: ez a Szövetség (Alliance) és a Horda (Horde). Továbbá a fajok
+      kezdő
+      tulajdonságai némileg eltérnek, és mindegyiknek megvan speciáis - csak az adott fajra - jellemző képessége,
+      illetve saját nyelve.
+    </p>
+
+    <h2>A Szövetség tagjai:</h2>
+    <ul>
+      <li> Emberek (Human)</li>
+      <li> Törpök (Dwarf)</li>
+      <li>Gnómok (Gnome)</li>
+      <li>Árnyelfek (Night Elf)</li>
+      <li>Draeneiek (Draenei) (World of Warcraft: The Burning Crusade)</li>
+      <li> Worgenek (Worgen) (World of Warcraft: Cataclysm)</li>
+    </ul>
+
+    <h2>A Horda tagjai:</h2>
+    <ul>
+      <li> Orkok (Orc)</li>
+      <li>Trollok (Troll)</li>
+      <li>Taurenek (Tauren)</li>
+      <li>Élőholtak (Undead)</li>
+      <li>Vérelfek (Blood Elf) (World of Warcraft: The Burning Crusade)</li>
+      <li>Goblinok (Goblin) (World of Warcraft: Cataclysm)</li>
+    </ul>
+
+    <h2> Kasztok</h2>
+    <p>
+      A választott kaszt szabja meg a karakter képességeit, az általa használt harci technikákat és varázslatokat. A
+      játékban kilenc alapkaszt választható, de az egyes fajok csak meghatározott kasztok közül választhatnak. A játék
+      második kiegészítőjében vált elérhetővé egy speciális kritériumokat igénylő kaszt is, a halállovag.
+    </p>
+
+    <ul>
+      <li> Harcos (Warrior) – Ember, Törp, Gnóm, Árnyelf, Draenei, Ork, Troll, Tauren, Élőhalott, Vérelf </li>
+      <li> Zsivány; Tolvaj (Rogue) – Ember, Törp, Gnóm, Árnyelf, Ork, Troll, Élőhalott, Vérelf</li>
+      <li>Templomos lovag; Paplovag (Paladin) – Ember, Törp, Draenei, Vérelf, Tauren</li>
+      <li>Sámán (Shaman) – Ork, Troll, Tauren, Draenei, Törp</li>
+      <li>Druida (Druid) – Árnyelf, Tauren, Troll</li>
+      <li>Vadász (Hunter) – Törp, Árnyelf, Draenei, Ork, Troll, Tauren, Vérelf, Ember, Élőholt</li>
+      <li>Mágus (Mage) – Ember, Gnóm, Draenei, Troll, Élőhalott, Vérelf, Törp, Árnyelf, Ork</li>
+      <li>Boszorkánymester (Warlock) – Ember, Gnóm, Ork, Élőhalott, Vérelf</li>
+      <li>Pap (Priest) – Ember, Törp,Árnyelf, Draenei, Troll, Élőhalott, Vérelf, Gnóm, Tauren</li>
+      <li>Halállovag (Death Knight) - Minden faj. A World of Warcraft: Wrath of the Lich King kiegészítő első
+        hőskasztja.</li>
+    </ul>
+
+    <h2> Karakterfejlesztés</h2>
+    <p>
+      Tapasztalati pontok és tapasztalati szintek
+      A játék során a karakternek különféle küldetéseket kell végrehajtani és szörnyeket kell legyőzni. Ezekért
+      tapasztalati
+      pontokat (Experience Point, XP) kapnak. Kellően magas számú tapasztalati pont összegyűjtése után eggyel magasabb
+      tapasztalati szintre (Experience Level) lépnek, ahol a tulajdonságaik erősödnek, és újabb képességeket,
+      varázslatokat
+      tanulhatnak meg. Minden játékos 1-es szinten indul, kivéve a halállovagokat. A legmagasabb elérhető szint az
+      eredeti
+      játékban a 60., azonban a megjelenő kiegészítők 10-10 szinttel feljebb tolják ezt a határt.
+    </p>
+    <h2>Tulajdonságok</h2>
+
+    <h5> A karakternek alapvetően öt tulajdonsága (Attribute) van: </h5>
+    <ul>
+      <li>Erő (Strength) – Növeli a támadóerőt közelharci fegyverekkel, és a pajzzsal felfogott sebzést növeli.</li>
+
+      <li>Fürgeség (Agility) – Növeli a támadóerőt közelharci és távolsági fegyverekkel, a kitérési esélyt a fizikai
+        támadások
+        elől, valamint a páncélzat értékét és a fizikai sebzés kritikus találatának esélyét is.</li>
+
+      <li>Állóképesség (Stamina) – Növeli az életerőt.</li>
+
+      <li>Értelem (Intellect) – Növeli a manát és a a mindenkori támadó vagy gyógyító varázslatok kritikus találatának
+        esélyét.</li>
+
+      Lélek (Spirit) – Gyorsítja az életerő és a manna regenerálódását.</li>
+    </ul>
+    <p>
+      A tulajdonságok kasztonként változó mértékben növekszik minden szintlépéssel, így igazodva a választott szerepkör
+      számára fontos értékek növekedéséhez. A mágikus, vagy annál jobb felszerelések, és a különféle pozitív hatások
+      (WoW
+      szlengben ez a buff) természetesen drasztikusan megnövelhetik a maximálisan elérhető tulajdonságok mértékét.
+    </p>
+
+    <h2>Felszerelés</h2>
+    <p>
+      A játékos számos tárgyat talál kalandozása során. Ezek a hátizsákban (Backpack), illetve a különböző táskákban
+      tárolhatóak. A táskákba csak korlátozott számú tárgy fér, ezt a számot további táskák (Bags) felszedésével lehet
+      bővíteni. A karakter a hátizsákja mellett maximum 4 táskát vihet magával, amelyekbe 4, 6, 8, 10, 12, 14, 16, 18,
+      20
+      vagy 22 tárgy fér el. Emellett speciális táskákat is lehet találni a nyilak, a puskagolyók, lélek szilánkok (Soul
+      Shards), illetve a gyógynövények, ércek, bűvöléshez használatos alapanyagok, ékszerész alapanyagok számára. Ezek a
+      speciális táskák általában jóval nagyobb tárhellyel rendelkeznek, automatikusan bekerülnek a rájuk bízott javak
+      cserébe viszont nem fogad el más tárgyakat.
+    </p>
+    <p>
+      A felszerelésnek részét képezi a karakter pénze is. Ez lehet réz, ezüst, vagy arany. 100 réz ér egy ezüstöt, 100
+      ezüst
+      pedig egy aranyat. A pénz nem foglal külön helyet a táskában.
+    </p>
+
+    <h2>Tárgyak</h2>
+    <p>
+      A játék során szerezhető tárgyak nagy részét képes valamilyen célra felhasználni, például a fegyverek (Weapon), a
+      páncélzat (Armor) vagy a különböző foglalkozásokhoz felhasznált alapanyagok (Material) és régensek (Reagent). A
+      tárgyakat, amennyiben nem szükségesek valamely küldetéshez (vagyis nem Quest Itemek), el lehet adni kereskedőknek
+      (Vendor) vagy más játékosoknak. A hordható, fogyasztható tárgyaknak van szintkövetelményük, de vannak olyanok is,
+      amelyek ez mellet/helyett különböző fejlettségű kereskedelmi foglalkozást igényelnek, vagy csak bizonyos kasztok
+      használhatják. A játékban nevének színe jelzi a tárgy minőségét:
+    </p>
+
+
+    <h2>A páncélzat részei:</h2>
+    <ul>
+
+      <li> Sisak (Head)</li>
+      <li> Vállvért (Shoulders)</li>
+      <li> Köpeny (Back)</li>
+      <li> Mellvért, Testpáncél (Chest)</li>
+      <li> Karperec (Wrist)</li>
+      <li> Kesztyű (Hand)</li>
+      <li> Öv (Waist)</li>
+      <li> Lábszár (Legs)</li>
+      <li> Csizma (Feet)</li>
+      <li> Pajzs (Shield; a megfelelő kaszt által használható, mellékkézben tartható tárgy)</li>
+    </ul>
+    <h3>Védelmet nem biztosító felszereléstípusok:</h3>
+    <ul>
+      <li> Lepel (Tabard)</li>
+      <li> Ing (Shirt)</li>
+      <li> Nyakék (Neck)</li>
+      <li> Gyűrű (Finger): A gyűrűk minden esetben egyedi (unique) besorolással érhetők el, tehát az elérhető két gyűrűs
+        ujjra
+        húzott tárgy nem lehetnek megegyezőek egymással.</li>
+      <li> Bizsu (Trinket): A bizsuk igen változatosak lehetnek, egyszerű mágikus kövektől egészen a leghatalmasabb
+        főellenségek
+        testrészeikig bezárólag. A gyűrűkhöz hasonlóan minden esetben egyedi besorolásúak.</li>
+    </ul>
+  </section>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
+
 </html>

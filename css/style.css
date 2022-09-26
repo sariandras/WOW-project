@@ -198,3 +198,27 @@ background-color: #211510;
   bottom: 0;
   width: 100%;
 }
+.aranyszegely{
+  border: #ffe13e 1.5px solid;
+}
+.aranyszegely:hover{
+  border: #ffe13e 3px solid;
+}
+.index-news{
+  width: 100%;
+}
+.barna-csik{
+  height: 15%;
+  background-color: #211510;
+}
+.index-news-font1{
+  color: white;
+  margin: 0 auto;
+}
+.index-news-font2{
+  color: #ffe13e;
+  margin: 0 auto;
+  font-size: 1.7rem;
+}.index-a{
+  text-decoration: none;
+}

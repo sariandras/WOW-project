@@ -222,3 +222,34 @@ background-color: #211510;
 }.index-a{
   text-decoration: none;
 }
+.lich{
+  display: block;
+  position: absolute;
+  top: 10vw;
+  color: white;
+  font-size: 3vw;
+}
+.lich2{
+  display: block;
+  position: absolute;
+  top: 20vw;
+  color: white;
+  font-size: 2vw;
+}
+.gomb {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1.5px #ffe13e solid;
+  color: white;
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  font-size: 2vw;
+  position: absolute;
+  top: 30vw;
+  left: 5vw;
+}
+.gomb:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 3px #ffe13e solid;
+}

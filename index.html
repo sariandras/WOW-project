@@ -14,22 +14,61 @@
 <body>
     <header>
       <div class="topnav" id="myTopnav">
-        <a href="#home"><img src="pictures/icon.png" id="logo"></a>
+        <a href="index.html"><img src="pictures/icon.png" id="logo"></a>
         <a href="jatekrol.html" class="betuszin">A játékról</a>
         <a href="tortenet.html">Története</a>
         <a href="esport.html">Esports</a>
-        <a href="alapok.html">Alapok</a>
         <a href="javascript:void(0);" class="icon" onclick="navbar()">
           <i class="fa fa-bars"></i>
         </a>
       </div>
     </header>
-    <main>
+    <main class="background">
+        <p class="lich">THE LICH KING RETURNS 09.26.22</p>
+        <p class="lich2">The Wrath of the Lich King Classic pre-expansion event is underway! Get a Northrend Epic Upgrade to receive a Level 70 Character Boost, a pet, a toy, as well as two mounts—one for World of Warcraft, and one of Wrath of the Lich King Classic—along with 30 days of game time.</p>
+        <button class="gomb">Learn more</button>
       <video autoplay muted loop id="index-video">
         <source src="pictures/bg video.mp4" type="video/mp4">
       </video>
-    </main>
-    <script src="js/bootstrap.bundle.min.js"></script>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <a href="jatekrol.html" class="index-a">
+              <div class="aranyszegely index-relative">
+                <img src="pictures/new player icon.jpg" class="index-news">
+                <div class="barna-csik">
+                  <p class="index-news-font1 capitalize szoveg-kozep">NEW TO WOW</p>
+                  <p class="index-news-font2 szoveg-kozep">Begin your adventure</p>
+                  <p class="index-news-font1 szoveg-kozep">Start your journey through Azeroth here and try WoW for Free!</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="aranyszegely">
+              <img src="pictures/returning player icon.jpg" class="index-news">
+              <div class="barna-csik">
+                <p class="index-news-font1 capitalize szoveg-kozep">RETURNING PLAYERS</p>
+                <p class="index-news-font2 szoveg-kozep">Welcome Back to Azeroth</p>
+                <p class="index-news-font1 szoveg-kozep">Learn how to get back in the game and play the latest content for WoW.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="footer">
+        <p><img src="pictures/blizzard.png" alt="Blizzard" id="blizzard"></p>
+        All games, one app: <a href="https://www.blizzard.com/en-us/apps/battle.net/desktop">Battle.net Desktop App</a>
+        <p>©2022 BLIZZARD ENTERTAINMENT, INC. ALL RIGHTS RESERVED</p>
+        <p class="barna-hatter">
+          <img src="pictures/pegi12.png" alt="pegi12" class="icons">
+          <img src="pictures/bad_language.png" alt="bad_language" class="icons">
+          <img src="pictures/violance.jpg" alt="violance" class="icons">
+          <img src="pictures/in-game-purchase.png" alt="in-game-purchase" class="icons">
+          <img src="pictures/online-gameplay.png" alt="online-gameplay" class="icons">
+        </p>
+      </div>
+      <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

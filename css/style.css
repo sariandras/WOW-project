@@ -204,9 +204,66 @@ background-color: #211510;
   bottom: 0;
   width: 100%;
 }
+<<<<<<< HEAD
 .textcoloralapok{
   color: white;
 }
 .fix{
   background-color: black;
+=======
+.aranyszegely{
+  border: #ffe13e 1.5px solid;
+}
+.aranyszegely:hover{
+  border: #ffe13e 3px solid;
+}
+.index-news{
+  width: 100%;
+}
+.barna-csik{
+  height: 15%;
+  background-color: #211510;
+}
+.index-news-font1{
+  color: white;
+  margin: 0 auto;
+}
+.index-news-font2{
+  color: #ffe13e;
+  margin: 0 auto;
+  font-size: 1.7rem;
+}.index-a{
+  text-decoration: none;
+}
+.lich{
+  display: block;
+  position: absolute;
+  top: 10vw;
+  color: white;
+  font-size: 3vw;
+}
+.lich2{
+  display: block;
+  position: absolute;
+  top: 20vw;
+  color: white;
+  font-size: 2vw;
+}
+.gomb {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1.5px #ffe13e solid;
+  color: white;
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  font-size: 2vw;
+  position: absolute;
+  top: 30vw;
+  left: 5vw;
+}
+.gomb:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 3px #ffe13e solid;
+>>>>>>> 3b3867a6a0a633626e308e019902d6cfcff84145
 }

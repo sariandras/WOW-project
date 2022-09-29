@@ -178,6 +178,8 @@ background-color: #211510;
   left: 10%;
   top: 10%;
   color: aliceblue;
+  background: rgba(0, 0, 0, 0.7)
+  
   
 }
 
@@ -204,13 +206,14 @@ background-color: #211510;
   bottom: 0;
   width: 100%;
 }
-<<<<<<< HEAD
+
 .textcoloralapok{
   color: white;
 }
 .fix{
-  background-color: black;
-=======
+  background-color: rgb(161, 103, 64);
+}
+
 .aranyszegely{
   border: #ffe13e 1.5px solid;
 }
@@ -265,5 +268,4 @@ background-color: #211510;
 .gomb:hover {
   background-color: rgba(0, 0, 0, 0.3);
   border: 3px #ffe13e solid;
->>>>>>> 3b3867a6a0a633626e308e019902d6cfcff84145
 }

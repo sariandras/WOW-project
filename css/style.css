@@ -316,5 +316,59 @@ background-color: #211510;
 }
 
 .esport-carousel-bg {
-  background-color: rgba(30, 30, 30, 160);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.carousel-indicators {
+  padding-top: 50px;
+}
+
+.carousel-indicators {
+  bottom: -50px;
+}
+
+.esport-main {
+  background-image: url("../pictures/esport\ main\ bg\ pattern.png");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.esport-topics {
+  color: #ebdec2;
+  padding: 6.7px 10px;
+}
+
+.HorizontalNav-link {
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 6.7px;
+}
+
+.HorizontalNav-link, .HorizontalNav-item {
+  background-image: url("../pictures/esport\ main\ bg\ pattern.png");
+  background-repeat: repeat;
+  background-size: cover;
+  color: #f8b700;
+  background-color: #211510;
+  text-decoration: none;
+}
+
+.HorizontalNav-link:hover, .HorizontalNav-item:hover {
+  background: rgba(247, 177, 10, 0.4);
+  color: #f7b10a
+}
+
+.HorizontalNav-item {
+  text-transform: uppercase;
+  font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 6.7px 10px;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  transition: all .2s cubic-bezier(.23,1,.32,1) 0s;
 }

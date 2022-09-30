@@ -247,9 +247,14 @@ background-color: #211510;
   text-decoration: none;
   display:block;
   font-size: 2vw;
+
+}
+.buttonholder{
   position: absolute;
   top: 35vw;
   left: 5vw;
+  z-index: auto;
+  pointer-events: all;
 }
 .gomb:hover {
   background-color: rgba(0, 0, 0, 0.3);
